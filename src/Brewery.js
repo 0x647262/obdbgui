@@ -1,9 +1,6 @@
 import React from "react";
 import "./Brewery.css";
 
-// TODO: Look into conditional rendering for the myriad of paragraph tags below. I'm certain that there is a better way
-//       of doing it, but it has been almost 2 years since I last used React so my skills are a tad rusty.
-
 export default function Brewery({ brewery }) {
   return (
     <div className="Brewery">
