@@ -5,11 +5,25 @@
 
 input {
   font-size: 1rem;
-  padding: 1rem;
-  max-width: 24rem;
-  min-width: 24rem;
+  padding: 1rem 0;
+  width: 24rem;
   text-align: center;
   margin: 1rem auto 0;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.pagination {
+  display: inline-block;
+  margin: 1rem 0 auto;
+}
+
+.pagination p {
+  display: inherit;
+  margin: 0 1rem;
+  width: 6rem;
+}
+.pagination button {
+  width: 8rem;
+  padding: 1rem;
 }
