@@ -2,9 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Quickstart
+
+To start a development build of this application locally, run the following:
+
+```sh
+yarn install
+yarn start
+```
+
+If a new tab does not open in your default browser, open your browser of choice and navigate to http://localhost:3000.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+
+Bootstraps the dependencies required to run and build the app.
 
 ### `yarn start`
 
